@@ -1,11 +1,14 @@
 # depslib dependency file v1.0
-1604959744 source:d:\code\nhf\main.c
-	<SDL2/SDL2_gfxPrimitives.h>
-	<math.h>
+1606413248 source:d:\code\nhf\main.c
 	<stdlib.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
 	<SDL2/SDL_image.h>
-	"sdlTypes.h"
 	<SDL2/SDL_ttf.h>
+	"gamestate.h"
+	"sdlTypes.h"
+	"game.h"
+	"popup.h"
 
 1518375510 d:\program files\codeblocks\mingw\include\sdl2\sdl2_gfxprimitives.h
 	<math.h>
@@ -365,37 +368,46 @@
 	"begin_code.h"
 	"close_code.h"
 
-1604761565 source:d:\code\nhf\cards.c
+1606397318 source:d:\code\nhf\cards.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<time.h>
 	"cards.h"
+	"player.h"
 
-1604761105 d:\code\nhf\cards.h
+1606397391 d:\code\nhf\cards.h
 
-1604761736 source:d:\code\nhf\list.c
+1606406460 source:d:\code\nhf\list.c
 	"cards.h"
 	"list.h"
+	<stdlib.h>
 
-1604761584 d:\code\nhf\list.h
+1606397391 d:\code\nhf\list.h
 	"cards.h"
 	<stdio.h>
 
-1604960113 source:d:\code\nhf\game.c
+1606411454 source:d:\code\nhf\game.c
 	"gamestate.h"
 	<SDL2/SDL.h>
 	<SDL2/SDL2_gfxPrimitives.h>
 	"sdlTypes.h"
-
-1604933862 d:\code\nhf\gamestate.h
+	"game.h"
+	"cards.h"
 	"player.h"
+	<unistd.h>
+	<time.h>
 
-1604933953 d:\code\nhf\player.h
+1606397391 d:\code\nhf\gamestate.h
+	"player.h"
+	<stdbool.h>
+
+1606397391 d:\code\nhf\player.h
 	"cards.h"
 	"list.h"
+	<SDL2/SDL.h>
 
-1604934173 source:d:\code\nhf\player.c
+1606405997 source:d:\code\nhf\player.c
 	"player.h"
 	<string.h>
 	"list.h"
@@ -412,17 +424,57 @@
 	"begin_code.h"
 	"close_code.h"
 
-1604956237 d:\code\nhf\sdltypes.h
+1606397391 d:\code\nhf\sdltypes.h
 	<SDL2/SDL.h>
 	<SDL2/SDL2_gfxPrimitives.h>
 	<stdbool.h>
 	<SDL2/SDL_ttf.h>
 
-1604956543 source:d:\code\nhf\sdltypes.c
+1606397318 source:d:\code\nhf\sdltypes.c
 	"sdlTypes.h"
+	<SDL2/SDL_image.h>
 
 1547322290 d:\program files\codeblocks\mingw\include\sdl2\sdl_ttf.h
 	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
+
+1606410977 source:d:\code\nhf\gamestate.c
+	"gamestate.h"
+	<string.h>
+	<stdlib.h>
+	"cards.h"
+	"time.h"
+
+1606401017 d:\code\nhf\game.h
+	"linkedlist.h"
+
+1604942760 source:d:\code\nhf\playstate.c
+
+1605348823 d:\code\nhf\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1606397811 source:d:\code\nhf\popup.c
+	<SDL2/SDL.h>
+	<ctype.h>
+	"sdlTypes.h"
+	"popup.h"
+
+1606397391 d:\code\nhf\popup.h
+
+1606412849 source:d:\code\nhf\linkedlist.c
+	"linkedlist.h"
+	"stdlib.h"
+	"stdio.h"
+	<string.h>
+
+1606403470 d:\code\nhf\linkedlist.h
 

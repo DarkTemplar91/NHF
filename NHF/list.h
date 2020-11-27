@@ -13,6 +13,5 @@ typedef struct
 void newDynamicArray(DynamicArray* a);
 void addToArray(DynamicArray* a, cards newElement);
 void discardArray(DynamicArray* a);
-void removeElement(DynamicArray* a, cards element);
 
 #endif // LIST_H_INCLUDED

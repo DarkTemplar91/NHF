@@ -1,16 +1,5 @@
 #ifndef CARDS_H_INCLUDED
 #define CARDS_H_INCLUDED
-
-typedef struct{
-    int value;
-    char sign;
-    //change signs
-    char suit[10];
-    int faceValueIndex;
-
-
-}cards;
-
 typedef enum
 {
     Two=2, Three, Four, Five, Six, Seven, Eight, Nine, Ten,
@@ -19,10 +8,18 @@ typedef enum
 
 typedef enum
 {
-    Spades=1, Hearts, Diamonds, Clubs
+    Clubs=1, Diamonds, Hearts, Spades
 }suits;
+
+typedef struct{
+    int value;
+    faceValue faceValueIndex;
+    suits suitIndex;
+}cards;
 
 void fillDeck(cards *deck);
 void shuffleDeck(cards* deck);
+void switchCards(cards *a, cards *b);
+int cardcmpf(const void* a, const void* b);
 
 #endif // CARDS_H_INCLUDED

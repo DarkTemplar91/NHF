@@ -1,0 +1,24 @@
+A pikk, illetve fekete dáma egy négy játékos által játszott francia kártyajáték.
+Célja, hogy a játékosok minnnél kevesebb pontot szerezzenek az öt kör alatt.
+A kártyajátékot standard 52 lapos francia kártyapaklival játszák.
+
+Pontot érő lapok: - Minden kör lap (számértékükkel megegyező pontot érnek)
+                           - Pikk Dáma (20 pont)
+
+Adúszínek sorrendje: Treff, Káró, Kör, Pikk (Utolsó körben nincs adú)
+
+A játékosok minden körben 13-13 lapot kapnak kézbe. Minden körben, az utolsó
+kivételével van egy adúszín. 
+A kör kezdetén az első játékos lehelyezi az általa választott kártyalapot.
+Ezt "hívásnak" nevezük. Miután a első játékos hívott, az őt követő játékosok
+csak olyan színű lapot hívhatnak, amely megegyezik az elsőre hívott lap színével.
+Ha a játékosoknak nincs ilyen lapjuk, akkor bármilyen kártyát lehelyezhetnek.
+Miután mind a négy játékos hívott egyszer, az a játkos viszi el a lapokat,
+aki a legnagyobb értékű, az első lappal azonos színű lapot rakta le, vagy a 
+legnagyobb adúkártyát. Ezután ő kezdi a hívást.
+A kör addig tart, amíg minden játékosnak el nem fogytak a kezeiben lévő lapok.
+A kör végén a játékosok által elhozott lapok értékét össze kell számolni, és azt
+a játékosok pontjához hozzáadni.
+Azonban, ha az egyik játékos elhozta az összes pontot érő lapot egy körben, ő neki
+nulla pontot kell elszámolnia, míg játékos társainak 114 (a maximális) pontot kell
+hozzáadjanak a saját pontjaikhoz.

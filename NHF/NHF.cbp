@@ -50,11 +50,18 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="cards.h" />
-		<Unit filename="debugmalloc.h" />
 		<Unit filename="game.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="game.h" />
+		<Unit filename="gamestate.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="gamestate.h" />
+		<Unit filename="linkedlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="linkedlist.h" />
 		<Unit filename="list.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -66,6 +73,12 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="player.h" />
+		<Unit filename="popup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="popup.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="sdlTypes.c">
 			<Option compilerVar="CC" />
 		</Unit>
